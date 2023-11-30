@@ -1,0 +1,149 @@
+:root {
+    --background-color: #00b6d1;
+}
+
+img {
+    width: 132px;
+    height: 47px;
+    background-size: cover;
+}
+
+.side ul {
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+    font-family: "Segoe UI";
+    font-style: bold;
+    gap: 19px;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.side ul li {
+    margin: 0px 5px;
+}
+
+svg {
+    margin: -5px 0px;
+}
+
+section {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+
+.first span {
+    font-size: 34px;
+    margin-top: 33px;
+    font-family: sans-serif;
+}
+
+.first :nth-child(2) {
+    font-size: 20px;
+    width: 66vw;
+    text-align: center;
+}
+
+.but1{
+
+    font-size: 13px;
+    border-radius: 5px;
+    padding: 14px;
+    background-color: var(--background-color);
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+.section2{
+    display: flex;
+    justify-content: revert;
+    margin: 17px 130px;
+    gap: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+.section2 div img{
+    background-size:cover;
+    width: 40px;
+
+}
+.english{
+    background-color: rgb(229, 240, 236);
+    width: 284px;
+    height: 187px;
+    text-align: center;
+    
+}
+.english div{
+   padding: 46px;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 23px;
+}
+.but-2{
+    border: none;
+    border-radius: 3px;
+    padding: 17px 18px;
+    color: white;
+    background-color: var(--background-color);
+    
+}
+.but-2:hover{
+    color: black;
+    cursor: pointer;
+}
+.col{
+    background-color: rgb(37, 194, 37);
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:16px;
+    margin-left: 56px;
+    margin-top: 48px;
+}
+footer{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23px;
+    /* background-color: rgb(243, 243, 6); */
+    color: black;
+    padding: 12px 0px;
+}
+footer div img{
+    background-size: cover;
+    width: 102px;
+    height: 42px;
+}
+footer div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+.fixed img{
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    position: fixed;
+    right: 23px;
+    bottom: 23px;
+    border-radius: 100%;
+}
+
